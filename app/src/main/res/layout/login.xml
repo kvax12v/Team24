@@ -62,4 +62,22 @@
 
     </LinearLayout>
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Login"
+        android:id="@+id/login_button"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/forgot"
+        android:text="Forgot Username or Password?"/>
+
 </LinearLayout>
