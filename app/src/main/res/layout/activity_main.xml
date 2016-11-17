@@ -24,7 +24,11 @@
         android:text="Login"
         android:id="@+id/login_button"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="open_LoginActivity"
+
+
+        />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -34,5 +38,8 @@
         android:id="@+id/new_user"
         android:layout_marginTop="71dp"
         android:layout_below="@+id/login_button"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="open_Newuser_Login"
+
+        />
 </RelativeLayout>
