@@ -33,7 +33,7 @@ public class Newuser_Login extends AppCompatActivity {
     }
 
     public void open_MainActivity(View view) {
-        Intent intent1 = new Intent(this, MainActivity.class);
-        startActivity(intent1);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }
