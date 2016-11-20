@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     public void open_Newuser_Login(View view){
@@ -29,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     public void open_LoginActivity(View view){
         Intent intent2 = new Intent(this, LoginActivity.class);
         startActivity(intent2);
-
     }
 
 
